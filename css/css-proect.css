@@ -1,0 +1,360 @@
+body{
+    font-family: Lato;
+  }
+  header{
+      background: url(../img/house-fon.jpg);
+      background-position: center center;
+     background-repeat:no-repeat ;
+      height: 453px;
+      min-width: 1440px;
+      margin:-15px;
+     
+  }
+
+img{
+    height : 158px;
+}
+
+img[src="img/menu-icon.png"]{ /*белая*/
+    margin : 0px auto;
+    margin-top:30px;
+     
+  }
+  img[src="img/menu-icon-blue.png"]{ /*синяя*/
+    margin : 0px auto;
+    margin-top:30px;
+    margin-left: -133px;
+    opacity:0;
+  }
+  img[src="img/menu-icon-blue.png"]:hover{
+    margin : 0px auto;
+    margin-top:30px;
+    margin-left: -133px;
+    opacity:1;
+    transform-origin: all;
+    transition-duration: 1s;
+  }
+  img[src="img/home.png"]{ /*белая*/
+    margin-top:30px;
+       float:left;
+  
+  }
+  img[src="img/home-blue.png"]{ /*синяя*/
+    margin-left: -143px;
+    margin-top:30px;
+       float:left;
+   
+    opacity:0;
+  }
+  img[src="img/home-blue.png"]:hover{
+    margin-left: -143px;
+    margin-top:30px;
+       float:left;
+  
+    opacity:1;
+    transform-origin: all;
+    transition-duration: 1s;
+  }
+
+img[src="img/new-ulstu.png"]{ /*белая*/
+    margin-top:30px;
+       float:right;
+       margin-right: 0px;
+  }
+  img[src="img/new-ulstu-white.png"]{ /*синяя*/
+    margin-top:30px;
+       float:right;
+       margin-right: -219px;
+    opacity:0;
+  }
+  img[src="img/new-ulstu-white.png"]:hover{
+    margin-top:30px;
+       float:right;
+       margin-right: -219px;
+    opacity:1;
+    transform-origin: all;
+    transition-duration: 1s;
+  }
+  .menu-centr{
+    margin-left:500px;
+    
+      
+  }
+  .proect{
+   
+ 
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 30px;
+    color:#FFFFFF;
+    text-decoration: none;
+    }
+#proect3{
+float:right;
+margin-right: 20px;
+}
+#proect2{
+    margin-top:900px;
+    margin-left : 420px;
+}
+#proect1{
+    margin-left:20px;
+}
+.menu{
+    margin-bottom:20px;
+}
+.history{
+    clear: right;
+    margin-left:-50px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 69px;
+    line-height: 83px;
+    width:70%;
+    padding-top: 50px ;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #FFFFFF;
+    color: #FFFFFF;
+    }
+    /*основной текст*/
+    .for-proect{
+        margin-top:100px;
+        margin-left:-50px;
+        font-family: Lato;
+font-style: normal;
+font-weight: 800;
+font-size: 55px;
+line-height: 30px;
+    }
+    .sect{
+        margin:0px auto;
+        margin-top:80px;
+        margin-left:-50px;
+        padding-top:80px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 45px;
+      line-height: 54px;
+      text-align: center;
+      width: 80%;
+      color: #0F1B8D;
+      background: rgba(144, 207, 158, 0.5);
+      width:1440px;
+      }
+p{
+    text-align: left;
+}
+.istochnik{
+    font-family: Lato;
+    margin-left:-50px;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 60px;
+color: #012F03; 
+}
+.istochnik-div{
+    margin:0px auto;
+    margin-top:80px;
+    margin-left:-50px;
+    padding-top:80px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  width: 80%;
+  color: #0F1B8D;
+  background: rgba(144, 207, 158, 0.5);
+  width:1440px;
+ min-height: 1000px;
+}
+
+  .mini-icon{
+    margin-left:40px;
+    height:60px;
+    padding-left:0px;
+  }
+  .inst-icon{
+    margin-top:10px;
+  }
+.link{
+  text-align: left;
+  margin-left:0px;
+}
+.people{
+margin-left: 40px;
+}
+.inst,.vk{
+  margin-left:20px;
+  margin-top:10px;
+  text-decoration: none;
+  font-style: normal;
+font-weight: normal;
+font-size: 35px;
+
+}
+.vk{
+  color: #19316D;
+}
+.inst{
+  color: #740755;
+}
+.container{
+  padding-left:0px;
+}
+footer{
+  margin-top:50px;
+  height: 137px;
+  background: #6FBA17;
+  max-width:1920px;
+  margin:0 auto;
+}
+.foot{
+  margin-top: 50px;
+}
+@media(min-width:768px) and (max-width:992px){
+header img{
+  height:120px;
+  margin:0px;
+ 
+}
+.proect{
+  margin :0px;
+}
+.menu-centr{
+  margin-left:280px;
+  
+    
+}
+#proect2{
+  margin-top:900px;
+  margin-left : 220px;
+}
+.sect{
+  width:768px;
+}
+header{
+  min-width:768px;
+}
+.istochnik-div{
+  min-width:768px;
+  width:768px;
+}
+img[src="img/home-blue.png"]{ /*синяя*/
+  margin-left: -109px;
+
+}
+img[src="img/home-blue.png"]:hover{
+  margin-left: -109px;
+}
+img[src="img/new-ulstu-white.png"]{ /*синяя*/
+  margin-right: -167px;
+}
+img[src="img/new-ulstu-white.png"]:hover{
+  margin-right: -167px;
+}
+img[src="img/menu-icon-blue.png"]{ /*синяя*/
+  margin-left: -101px;
+}
+img[src="img/menu-icon-blue.png"]:hover{
+  margin-left: -101px;
+}
+}
+@media(min-width:576px) and (max-width:768px){
+  header img{
+    height:120px;
+    margin:0px;
+   
+  }
+  .proect{
+    margin :0px;
+  }
+  .menu-centr{
+    margin-left:180px;
+    
+      
+  }
+  #proect2{
+    margin-top:900px;
+    margin-left : 120px;
+  }
+  .sect{
+    width:576px;
+  }
+  header{
+    min-width:576px;
+  }
+  .istochnik-div{
+    min-width:576px;
+    width:576px;
+  }
+  img[src="img/home-blue.png"]{ /*синяя*/
+    margin-left: -109px;
+  
+  }
+  img[src="img/home-blue.png"]:hover{
+    margin-left: -109px;
+  }
+  img[src="img/new-ulstu-white.png"]{ /*синяя*/
+    margin-right: -167px;
+  }
+  img[src="img/new-ulstu-white.png"]:hover{
+    margin-right: -167px;
+  }
+  img[src="img/menu-icon-blue.png"]{ /*синяя*/
+    margin-left: -101px;
+  }
+  img[src="img/menu-icon-blue.png"]:hover{
+    margin-left: -101px;
+  }
+  }
+  @media(max-width:576px){
+    header img{
+      height:80px;
+      margin:0px;
+     
+    }
+    .proect{
+      margin :0px;
+    }
+    .menu-centr{
+      margin-left:180px;
+      
+        
+    }
+    #proect2{
+      margin-top:900px;
+      margin-left : 120px;
+    }
+    .sect{
+      width:auto;
+    }
+    header{
+      min-width:auto;
+    }
+    .istochnik-div{
+      min-width:auto;
+      width:auto;
+    }
+    img[src="img/home-blue.png"]{ /*синяя*/
+      margin-left: -109px;
+    
+    }
+    img[src="img/home-blue.png"]:hover{
+      margin-left: -109px;
+    }
+    img[src="img/new-ulstu-white.png"]{ /*синяя*/
+      margin-right: -167px;
+    }
+    img[src="img/new-ulstu-white.png"]:hover{
+      margin-right: -167px;
+    }
+    img[src="img/menu-icon-blue.png"]{ /*синяя*/
+      margin-left: -101px;
+    }
+    img[src="img/menu-icon-blue.png"]:hover{
+      margin-left: -101px;
+    }
+    }

@@ -1,0 +1,629 @@
+body{
+  font-family: Lato;
+}
+header{
+    background: url(../img/house-fon.jpg);
+    background-position: center center;
+   background-repeat:no-repeat ;
+    height: 900px;
+    min-width: 1440px;
+    margin:-15px;
+}
+img[src="img/new-ulstu.png"]{ /*белая*/
+  margin-top:30px;
+     float:right;
+  margin-right: -140px;
+}
+img[src="img/new-ulstu-white.png"]{ /*синяя*/
+  margin-top:30px;
+     float:right;
+  margin-right: -219px;
+  opacity:0;
+}
+img[src="img/new-ulstu-white.png"]:hover{
+  margin-top:30px;
+     float:right;
+  margin-right: -219px;
+  opacity:1;
+  transform-origin: all;
+  transition-duration: 1s;
+}
+.container{
+  max-width:1440px;
+}
+.proect{
+clear: right;
+float:right;
+margin-right: -100px;
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 30px;
+color:#FFFFFF;
+text-decoration: none;
+}
+.proect:hover{
+  color:#00438d;
+  transform-origin: all;
+  transition-duration: 1s;
+}
+.history{
+clear: right;
+font-style: normal;
+font-weight: 800;
+font-size: 69px;
+line-height: 83px;
+width:70%;
+padding-top: 50px ;
+padding-bottom: 5px;
+border-bottom: 3px solid #FFFFFF;
+color: #FFFFFF;
+}
+.information{
+font-style: italic;
+font-weight: 300;
+font-size: 30px;
+line-height: 36px;
+width:70%;
+margin-bottom: 100px;
+color: #FFFFFF;
+}
+/*белый фон*/
+.double-fon{
+  min-height: 693px;
+  
+  background: url(../img/white-fon.png) ; 
+  height: auto;
+
+}
+
+
+input[type=range] {
+  -webkit-appearance: none;
+  width :80%;
+  margin-left:130px;
+  margin-top:150px;
+  width: 80%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 800%;
+  height: 14px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  background :#470060;
+  border-radius: 25px;
+  border: 0px solid #000101;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 0px solid #000000;
+  height: 40px;
+  width: 40px;
+  margin-top: -14px;
+  border-radius: 20px;
+  background :#470060;
+  cursor: pointer;
+  -webkit-appearance: none;
+ 
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background :#470060;
+}
+input[type=range]::-moz-range-track {
+  width: 80%;
+  height: 14px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  background :#470060;
+  border-radius: 25px;
+  border: 0px solid #000101;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 0px solid #000000;
+  height: 40px;
+  width: 40px;
+  margin-top: -14px;
+  border-radius: 20px;
+  background :#470060;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 14px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  border-width: 39px 0;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background :#470060;
+  border: 0px solid #000101;
+  border-radius: 50px;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+input[type=range]::-ms-fill-upper {
+  background :#470060;
+  border: 0px solid #000101;
+  border-radius: 50px;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 0px solid #000000;
+  height: 40px;
+  width: 40px;
+  margin-top: -14px;
+  border-radius: 20px;
+  background :#470060;
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background :#470060;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background :#470060;
+}
+
+.chronology{
+  padding-top: 100px;
+  padding-left: 50px;
+font-style: italic;
+font-weight: 600;
+font-size: 50px;
+line-height: 60px;
+color: #470060;
+}
+.center-line{
+  width: 80%;
+  margin: 0 auto;
+  color:#470060;
+  size:5px;
+
+}
+/*основной текст с тестом*/
+.sect{
+  margin:0px auto;
+  margin-top:480px;
+  padding-top:80px;
+font-style: normal;
+font-weight: 300;
+font-size: 45px;
+line-height: 54px;
+text-align: center;
+width: 80%;
+color: #0F1B8D;
+}
+section p span{
+  padding-top:80px;
+  border-top: 5px solid  #0F1B8D;
+}
+.test{
+  margin-top: 40px;
+  background:url(../img/test-fon.jpg);
+  width: 100%;
+  height: 195px;
+  border-radius: 28px;
+  text-align: center;
+  cursor: pointer;
+}
+.back-black{
+  background:rgba(0,0,0,0);
+  padding-bottom:24px;
+  border-radius: 28px;
+  height:100%;
+}
+.back-black:hover{
+  transform-origin: all;
+  transition-duration: 1s;
+  background:rgba(0,0,0,0.7);
+}
+.test a{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  padding-bottom:24px;
+  line-height:170px;
+  color: #ffffff;
+  text-decoration: none;
+ text-shadow: 13px 0px 0px #470060;
+display: block;
+}
+.test a:hover{
+  transform-origin: all;
+  transition-duration: 1s;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height:170px;
+  color: #717AD7;
+  text-decoration: none;
+ text-shadow: none;
+display: block;
+}
+/*футер*/
+footer{
+  margin-top:50px;
+  height: 137px;
+  background: #6FBA17;
+  width:1920px;
+  margin:0 auto;
+}
+.foot{
+  margin-top: 50px;
+}
+@media(min-width:0px) and (max-width:1700px){
+  img[src="img/new-ulstu.png"]{
+    margin-top:30px;
+       float:right;
+    margin-right: 0px;
+  }
+  img[src="img/new-ulstu-white.png"]{/*синяя*/
+    margin-top:30px;
+       float:right;
+    margin-right: -219px;
+    opacity:0;
+  }
+  img[src="img/new-ulstu-white.png"]:hover{/*белая*/
+    margin-top:30px;
+       float:right;
+    margin-right: -219px;
+    opacity:1;
+    transform-origin: all;
+    transition-duration: 1s;
+  }
+  .proect{
+    clear: right;
+    float:right;
+    margin-right: 30px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 30px;
+    color:#FFFFFF;
+    text-decoration: none;
+    }
+}
+@media(min-width:1200px) and (max-width:1440px){
+  header{
+    background: url(../img/house-fon.jpg);
+    background-position: center center;
+   background-repeat:no-repeat ;
+    min-width: 1200px;
+    margin:-15px;
+}
+.container{
+  max-width:1200px;
+}
+.sect{
+  margin:0px auto;
+  margin-top:480px;
+  padding-top:80px;
+font-style: normal;
+font-weight: 300;
+font-size: 37px;
+line-height: 54px;
+text-align: center;
+width: 80%;
+color: #0F1B8D;
+}
+.history{
+  clear: right;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 57px;
+  line-height: 83px;
+  width:70%;
+  padding-top: 50px ;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #FFFFFF;
+  color: #FFFFFF;
+  }
+  .information{
+font-style: italic;
+font-weight: 300;
+font-size: 27px;
+line-height: 36px;
+width:70%;
+margin-bottom: 100px;
+color: #FFFFFF;
+}
+footer{
+  margin-top:50px;
+  background: #6FBA17;
+  width:1200px;
+  margin:0 auto;
+}
+}
+@media(min-width:992px) and (max-width:1200px){
+  input[type=range] {
+    -webkit-appearance: none;
+    width :80%;
+    margin-left:30px;
+    margin-top:150px;
+    width: 80%;
+  }
+.history{
+  clear: right;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 83px;
+  width:70%;
+  padding-top: 50px ;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #FFFFFF;
+  color: #FFFFFF;
+  }
+  .information{
+font-style: italic;
+font-weight: 300;
+font-size: 20px;
+line-height: 36px;
+width:70%;
+margin-bottom: 100px;
+color: #FFFFFF;
+}
+.sect{
+  margin:0px auto;
+  margin-top:480px;
+  padding-top:80px;
+font-style: normal;
+font-weight: 300;
+font-size: 27px;
+line-height: 54px;
+text-align: center;
+width: 80%;
+color: #0F1B8D;
+}
+header{
+  background: url(../img/house-fon.jpg);
+  background-position: center center;
+ background-repeat:no-repeat ;
+  min-width: 900px;
+  margin:-15px;
+}
+.container{
+  max-width:900px;
+}
+footer{
+  margin-top:50px;
+  background: #6FBA17;
+  width:1200px;
+  margin:0 auto;
+}
+}
+@media(min-width:768px) and (max-width:992px){
+  input[type=range] {
+    -webkit-appearance: none;
+    width :70%;
+    margin-left:30px;
+    margin-top:150px;
+    width: 80%;
+  }
+  .history{
+    clear: right;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 83px;
+    width:70%;
+    padding-top: 50px ;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #FFFFFF;
+    color: #FFFFFF;
+    }
+    .information{
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 36px;
+  width:100%;
+  margin-bottom: 100px;
+  color: #FFFFFF;
+  }
+  .sect{
+    margin:0px auto;
+    margin-top:480px;
+    padding-top:80px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 54px;
+  text-align: center;
+  width: 80%;
+  color: #0F1B8D;
+  }
+  header{
+    background: url(../img/house-fon.jpg);
+    background-position: center center;
+   background-repeat:no-repeat ;
+    min-width: 720px;
+    margin:-15px;
+  }
+  .container{
+    max-width:720px;
+  }
+  footer{
+    margin-top:50px;
+    background: #6FBA17;
+    width:720px;
+    margin:0 auto;
+  }
+}
+@media(min-width:576px) and (max-width:768px){
+  input[type=range] {
+    -webkit-appearance: none;
+    width :60%;
+    margin-left:0px;
+    margin-top:150px;
+    width: 80%;
+  }
+  .history{
+    clear: right;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 83px;
+    width:70%;
+    padding-top: 50px ;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #FFFFFF;
+    color: #FFFFFF;
+    }
+    .information{
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 36px;
+  width:100%;
+  margin-bottom: 100px;
+  color: #FFFFFF;
+  }
+  .sect{
+    margin:0px auto;
+    margin-top:480px;
+    padding-top:80px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 54px;
+  text-align: center;
+  width: 80%;
+  color: #0F1B8D;
+  }
+  header{
+    background: url(../img/house-fon.jpg);
+    background-position: center center;
+   background-repeat:no-repeat ;
+    min-width: 540px;
+    margin:-15px;
+  }
+  .container{
+    max-width:540px;
+  }
+  footer{
+    margin-top:50px;
+    background: #6FBA17;
+    width:540px;
+    margin:0 auto;
+  }
+}
+
+@media(max-width:576px){
+  input[type=range] {
+    -webkit-appearance: none;
+    width :50%;
+    margin-left:0px;
+    margin-top:150px;
+    width: 80%;
+  }
+  .history{
+    clear: right;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 83px;
+    width:70%;
+    padding-top: 50px ;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #FFFFFF;
+    color: #FFFFFF;
+    }
+    .information{
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 36px;
+  width:100%;
+  margin-bottom: 100px;
+  color: #FFFFFF;
+  }
+  .sect{
+    margin:0px auto;
+    margin-top:480px;
+    padding-top:80px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 54px;
+  text-align: center;
+  width: 80%;
+  color: #0F1B8D;
+  }
+  header{
+    background: url(../img/house-fon.jpg);
+    background-position: center center;
+   background-repeat:no-repeat ;
+    min-width: auto;
+    margin:-15px; 
+  }
+  .container{
+    max-width:540px;
+  }
+  footer{
+    margin-top:50px;
+    background: #6FBA17;
+    width:auto;
+    margin:0 auto;
+  }
+}
+@media(max-width:385px){
+  section p span{
+    padding-top:80px;
+    border-top: 0px solid  #0F1B8D;
+  }
+}
+.arrow-2 {
+  display:inline-block;
+  height: 120px;
+  width: 80px;
+  position: relative;
+  margin-top:-205px;
+  margin-left: 84%;
+  margin-bottom: 14px;
+}
+.arrow-2-top, 
+.arrow-2-bottom {
+  background: #470060;
+  height: 10px;
+  left: -30px;
+  position: absolute;
+  top: 60px;
+  width: 100px;
+}
+.arrow-2-top {
+  top: 64px;
+}
+.arrow-2-top {
+  transform: rotate(45deg);
+  transform-origin: bottom right;
+}
+.arrow-2-bottom {
+  transform: rotate(-45deg);
+  transform-origin: top right;
+}
+.line{
+  height: 50px;
+  width: 10px;
+  background:#470060;
+  
+}
+.all-line{
+  margin-left: 200px;
+  margin-top: -38px;
+}
+.all-line div{
+  
+  margin-left: 20px;
+}
+
+.text-2,.text-4,.text-6,.text-8{
+  margin-top:-80px;
+}
