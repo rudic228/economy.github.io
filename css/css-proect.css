@@ -220,8 +220,15 @@ header img{
   margin:0px;
  
 }
+
 .proect{
   margin :0px;
+}
+#proect2{
+  margin-left:180px!important;
+}
+#proect1{
+  margin-left:10px!important;
 }
 .menu-centr{
   margin-left:280px;

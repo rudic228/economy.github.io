@@ -82,7 +82,7 @@ input[type=range] {
   -webkit-appearance: none;
   width :80%;
   margin-left:130px;
-  margin-top:150px;
+  margin-top:100px;
 }
 input[type=range]:focus {
   outline: none;
@@ -331,8 +331,6 @@ footer{
     -webkit-appearance: none;
     width :80%;
     margin-left:30px;
-    margin-top:150px;
-    width: 80%;
   }
 .history{
   clear: right;
@@ -389,8 +387,6 @@ footer{
     -webkit-appearance: none;
     width :89%!important;
     margin-left:30px;
-    margin-top:150px;
-    width: 80%;
   }
   .history{
     clear: right;
@@ -458,7 +454,6 @@ footer{
     -webkit-appearance: none;
     width :93%!important;
     margin-left:0px;
-    margin-top:150px;
   }
   .history{
     clear: right;
@@ -567,7 +562,7 @@ footer{
   .arrow-2-bottom {
     height: 5px!important;
     left: 0px!important;
-    top: 66px!important;
+    top: 29px!important;
     width: 70px!important;
   }
   
@@ -578,7 +573,6 @@ footer{
     -webkit-appearance: none;
     width :93%!important;
     margin-left:0px;
-    margin-top:150px;
   }
   .history{
     clear: right;
@@ -647,7 +641,7 @@ footer{
   .arrow-2-bottom {
     height: 5px!important;
     left: 5px!important;
-    top: 66px!important;
+    top: 29 px!important;
     width: 60px!important;
   }
   input[type=range]::-webkit-slider-runnable-track {
@@ -713,14 +707,14 @@ footer{
 .arrow-2-top, 
 .arrow-2-bottom {
   background: #470060;
-  height: 10px;
+  height: 14px;
   left: -30px;
   position: absolute;
-  top: 60px;
+  top: 26px;
   width: 100px;
 }
 .arrow-2-top {
-  top: 64px;
+  top: 30px;
 }
 .arrow-2-top {
   transform: rotate(45deg);
@@ -747,4 +741,8 @@ footer{
 
 .text-2,.text-4,.text-6,.text-8{
   margin-top:-80px;
+}
+.all-line,.arrow-2{
+  margin-bottom: -200px;
+  margin-top:120px;
 }
