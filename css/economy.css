@@ -258,6 +258,53 @@ footer{
 .foot{
   margin-top: 50px;
 }
+.arrow-2 {
+  display:inline-block;
+  height: 120px;
+  width: 80px;
+  position: relative;
+  margin-top:-205px;
+  margin-left: 84%;
+  margin-bottom: 14px;
+}
+.arrow-2-top, 
+.arrow-2-bottom {
+  background: #470060;
+  height: 10px;
+  left: -30px;
+  position: absolute;
+  top: 60px;
+  width: 100px;
+}
+.arrow-2-top {
+  top: 64px;
+}
+.arrow-2-top {
+  transform: rotate(45deg);
+  transform-origin: bottom right;
+}
+.arrow-2-bottom {
+  transform: rotate(-45deg);
+  transform-origin: top right;
+}
+.line{
+  height: 50px;
+  width: 10px;
+  background:#470060;
+  
+}
+.all-line{
+  margin-left: 200px;
+  margin-top: -38px;
+}
+.all-line div{
+  
+  margin-left: 20px;
+}
+
+.text-2,.text-4,.text-6,.text-8{
+  margin-top:-80px;
+}
 @media(min-width:0px) and (max-width:1700px){
   img[src="img/new-ulstu.png"]{
     margin-top:30px;
@@ -514,12 +561,29 @@ footer{
     width:540px;
     margin:0 auto;
   }
+  .line{
+    height: 40px;
+    width: 7px;
+  }
+  .all-line{
+    margin-left: 30px;
+    margin-top: -38px;
+  }
+  .all-line div{
+    
+    margin-left: 20px;
+  }
+  
+  .text-2,.text-4,.text-6,.text-8{
+    margin-top:-80px;
+  }
+  
 }
 
-@media(max-width:576px){
+@media(max-width:0px)and (max-width:576px){
   input[type=range] {
     -webkit-appearance: none;
-    width :50%;
+    width :30%;
     margin-left:0px;
     margin-top:150px;
     width: 80%;
@@ -573,57 +637,22 @@ footer{
     width:auto;
     margin:0 auto;
   }
-}
-@media(max-width:385px){
-  section p span{
-    padding-top:80px;
-    border-top: 0px solid  #0F1B8D;
+  .line{
+    height: 40px;
+    width: 7px;
+  }
+  .all-line{
+    margin-left: 30px;
+    margin-top: -38px;
+  }
+  .all-line div{
+    
+    margin-left: 20px;
+  }
+  
+  .text-2,.text-4,.text-6,.text-8{
+    margin-top:-80px;
   }
 }
-.arrow-2 {
-  display:inline-block;
-  height: 120px;
-  width: 80px;
-  position: relative;
-  margin-top:-205px;
-  margin-left: 84%;
-  margin-bottom: 14px;
-}
-.arrow-2-top, 
-.arrow-2-bottom {
-  background: #470060;
-  height: 10px;
-  left: -30px;
-  position: absolute;
-  top: 60px;
-  width: 100px;
-}
-.arrow-2-top {
-  top: 64px;
-}
-.arrow-2-top {
-  transform: rotate(45deg);
-  transform-origin: bottom right;
-}
-.arrow-2-bottom {
-  transform: rotate(-45deg);
-  transform-origin: top right;
-}
-.line{
-  height: 50px;
-  width: 10px;
-  background:#470060;
-  
-}
-.all-line{
-  margin-left: 200px;
-  margin-top: -38px;
-}
-.all-line div{
-  
-  margin-left: 20px;
-}
 
-.text-2,.text-4,.text-6,.text-8{
-  margin-top:-80px;
-}
+
