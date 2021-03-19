@@ -14,99 +14,50 @@ body{
 img{
     height : 158px;
 }
-
-img[src="img/menu-icon.png"]{ /*белая*/
-    margin : 0px auto;
-    margin-top:30px;
-     
-  }
-  img[src="img/menu-icon-blue.png"]{ /*синяя*/
-    margin : 0px auto;
-    margin-top:30px;
-    margin-left: -133px;
-    opacity:0;
-  }
-  img[src="img/menu-icon-blue.png"]:hover{
-    margin : 0px auto;
-    margin-top:30px;
-    margin-left: -133px;
-    opacity:1;
-    transform-origin: all;
-    transition-duration: 1s;
-  }
-  img[src="img/home.png"]{ /*белая*/
-    margin-top:30px;
-       float:left;
-  
-  }
-  img[src="img/home-blue.png"]{ /*синяя*/
-    margin-left: -143px;
-    margin-top:30px;
-       float:left;
-   
-    opacity:0;
-  }
-  img[src="img/home-blue.png"]:hover{
-    margin-left: -143px;
-    margin-top:30px;
-       float:left;
-  
-    opacity:1;
-    transform-origin: all;
-    transition-duration: 1s;
-  }
-
-img[src="img/new-ulstu.png"]{ /*белая*/
-    margin-top:30px;
-       float:right;
-       margin-right: 0px;
-  }
-  img[src="img/new-ulstu-white.png"]{ /*синяя*/
-    margin-top:30px;
-       float:right;
-       margin-right: -219px;
-    opacity:0;
-  }
-  img[src="img/new-ulstu-white.png"]:hover{
-    margin-top:30px;
-       float:right;
-       margin-right: -219px;
-    opacity:1;
-    transform-origin: all;
-    transition-duration: 1s;
-  }
-  .menu-centr{
-    margin-left:500px;
-    
-      
-  }
-  .proect{
-   
- 
-    font-style: normal;
-    font-weight: 800;
-    font-size: 25px;
-    line-height: 30px;
-    color:#FFFFFF;
-    text-decoration: none;
-    }
-#proect3{
-float:right;
-margin-right: 20px;
-}
-#proect2{
-    margin-top:900px;
-    margin-left : 420px;
-}
-#proect1{
-    margin-left:20px;
-}
 .menu{
-    margin-bottom:20px;
+  margin-left:250px;
+  width:1440px;
+  margin :0px auto;
+}
+.img-blue-1{
+  margin-left:-146px;
+  opacity: 0;
+}
+.img-blue-2{
+  margin-left:-133px;
+  opacity: 0;
+}
+.img-blue-3{
+  margin-left:-223px;
+  opacity: 0;
+}
+.img-blue-1:hover,.img-blue-2:hover,.img-blue-3:hover{
+  opacity:1;
+}
+.proect-text {
+  cursor:pointer;
+  display:block;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.pr-1{
+  margin-left:20px;
+}
+.pr-2{
+  margin-left:30px;
+}
+.pr-3{
+  margin-left:50px;
+}
+.proect-text:hover{
+  color:#0F1B8D;
 }
 .history{
-    clear: right;
-    margin-left:-50px;
     font-style: normal;
     font-weight: 800;
     font-size: 69px;
@@ -119,18 +70,17 @@ margin-right: 20px;
     }
     /*основной текст*/
     .for-proect{
-        margin-top:100px;
-        margin-left:-50px;
-        font-family: Lato;
+        margin-top:150px;
+        margin-left: 50px;
 font-style: normal;
 font-weight: 800;
 font-size: 55px;
-line-height: 30px;
+
     }
     .sect{
         margin:0px auto;
-        margin-top:80px;
-        margin-left:-50px;
+        margin-top:130px;
+        margin-left:-120px;
         padding-top:80px;
       font-style: normal;
       font-weight: 300;
@@ -157,7 +107,7 @@ color: #012F03;
 .istochnik-div{
     margin:0px auto;
     margin-top:80px;
-    margin-left:-50px;
+    margin-left:-120px;
     padding-top:80px;
   font-style: normal;
   font-weight: 300;
@@ -216,7 +166,7 @@ footer{
 }
 @media(min-width:768px) and (max-width:992px){
 header img{
-  height:120px;
+  height:110px;
   margin:0px;
  
 }
@@ -224,49 +174,63 @@ header img{
 .proect{
   margin :0px;
 }
-#proect2{
-  margin-left:180px!important;
+.history{
+  font-size: 50px;
 }
-#proect1{
-  margin-left:10px!important;
-}
-.menu-centr{
-  margin-left:280px;
-  
-    
-}
-#proect2{
-  margin-top:900px;
-  margin-left : 220px;
-}
+
 .sect{
   width:768px;
+  font-size: 30px;
 }
 header{
   min-width:768px;
+  width:768px;
+}
+.menu{
+  width:768px;
+  margin-left:20px;
+}
+.istochnik,.for-proect{
+  font-size:40px;
+}
+.sect{
+  margin-top:180px;
+  margin-left:-130px;
 }
 .istochnik-div{
   min-width:768px;
   width:768px;
+  margin-left:-130px;
 }
-img[src="img/home-blue.png"]{ /*синяя*/
-  margin-left: -109px;
-
+.proect-text{
+  font-size:20px;
 }
-img[src="img/home-blue.png"]:hover{
-  margin-left: -109px;
+.pr-1{
+  margin-left:10px;
 }
-img[src="img/new-ulstu-white.png"]{ /*синяя*/
-  margin-right: -167px;
+.pr-2{
+  margin-left:20px;
 }
-img[src="img/new-ulstu-white.png"]:hover{
-  margin-right: -167px;
+.pr-3{
+  margin-left:30px;
 }
-img[src="img/menu-icon-blue.png"]{ /*синяя*/
-  margin-left: -101px;
+footer{
+  width:768px;
+  margin-left:-50px;
 }
-img[src="img/menu-icon-blue.png"]:hover{
-  margin-left: -101px;
+.foot{
+  margin-right:-50px;
+  
+  margin-left:40px;
+}
+.img-blue-1{
+  margin-left:-102px;
+}
+.img-blue-2{
+  margin-left:-93px;
+}
+.img-blue-3{
+  margin-left:-155px;
 }
 }
 @media(min-width:576px) and (max-width:768px){
@@ -297,25 +261,7 @@ img[src="img/menu-icon-blue.png"]:hover{
     min-width:576px;
     width:576px;
   }
-  img[src="img/home-blue.png"]{ /*синяя*/
-    margin-left: -109px;
-  
-  }
-  img[src="img/home-blue.png"]:hover{
-    margin-left: -109px;
-  }
-  img[src="img/new-ulstu-white.png"]{ /*синяя*/
-    margin-right: -167px;
-  }
-  img[src="img/new-ulstu-white.png"]:hover{
-    margin-right: -167px;
-  }
-  img[src="img/menu-icon-blue.png"]{ /*синяя*/
-    margin-left: -101px;
-  }
-  img[src="img/menu-icon-blue.png"]:hover{
-    margin-left: -101px;
-  }
+
   }
   @media(max-width:576px){
     header img{
@@ -345,23 +291,5 @@ img[src="img/menu-icon-blue.png"]:hover{
       min-width:auto;
       width:auto;
     }
-    img[src="img/home-blue.png"]{ /*синяя*/
-      margin-left: -109px;
-    
-    }
-    img[src="img/home-blue.png"]:hover{
-      margin-left: -109px;
-    }
-    img[src="img/new-ulstu-white.png"]{ /*синяя*/
-      margin-right: -167px;
-    }
-    img[src="img/new-ulstu-white.png"]:hover{
-      margin-right: -167px;
-    }
-    img[src="img/menu-icon-blue.png"]{ /*синяя*/
-      margin-left: -101px;
-    }
-    img[src="img/menu-icon-blue.png"]:hover{
-      margin-left: -101px;
-    }
+
     }
