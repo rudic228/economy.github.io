@@ -33,6 +33,8 @@ img{
 }
 .img-blue-1:hover,.img-blue-2:hover,.img-blue-3:hover{
   opacity:1;
+  transform-origin: all;
+  transition-duration: 0.5s;
 }
 .proect-text {
   cursor:pointer;
@@ -56,6 +58,8 @@ img{
 }
 .proect-text:hover{
   color:#0F1B8D;
+  transform-origin: all;
+  transition-duration: 0.5s;
 }
 .history{
     font-style: normal;
@@ -90,7 +94,7 @@ font-size: 55px;
       width: 80%;
       color: #0F1B8D;
       background: rgba(144, 207, 158, 0.5);
-      width:1440px;
+      width:1140px;
       }
 p{
     text-align: left;
@@ -117,7 +121,7 @@ color: #012F03;
   width: 80%;
   color: #0F1B8D;
   background: rgba(144, 207, 158, 0.5);
-  width:1440px;
+  width:1140px;
  min-height: 1000px;
 }
 
@@ -164,6 +168,11 @@ footer{
 .foot{
   margin-top: 50px;
 }
+@media(min-width:992px) and (max-width:1440px){
+.sect, .istochnik-div{
+  margin-left:-80px;
+}
+}
 @media(min-width:768px) and (max-width:992px){
 header img{
   height:110px;
@@ -177,7 +186,9 @@ header img{
 .history{
   font-size: 50px;
 }
-
+.sect, .istochnik-div{
+  margin-right:0px;
+}
 .sect{
   width:768px;
   font-size: 30px;
@@ -232,12 +243,16 @@ footer{
 .img-blue-3{
   margin-left:-155px;
 }
+
 }
 @media(min-width:576px) and (max-width:768px){
   header img{
-    height:120px;
+    height:110px;
     margin:0px;
    
+  }
+  body{
+    width:576px;
   }
   .proect{
     margin :0px;
@@ -264,6 +279,9 @@ footer{
 
   }
   @media(max-width:576px){
+    body{
+      width:auto;
+    }
     header img{
       height:80px;
       margin:0px;

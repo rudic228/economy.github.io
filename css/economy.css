@@ -26,7 +26,7 @@ img[src="img/new-ulstu-white.png"]:hover{
   margin-right: -219px;
   opacity:1;
   transform-origin: all;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 .container{
   max-width:1440px;
@@ -45,7 +45,7 @@ text-decoration: none;
 .proect:hover{
   color:#00438d;
   transform-origin: all;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 .history{
 clear: right;
@@ -110,24 +110,19 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 input[type=range]::-moz-range-track {
   width: 80%;
   height: 14px;
-  cursor: pointer;
   background :#470060;
   border-radius: 25px;
-  border: 0px solid #000101;
 }
 input[type=range]::-moz-range-thumb {
-  border: 0px solid #000000;
   height: 40px;
   width: 40px;
   margin-top: -14px;
   border-radius: 20px;
   background :#470060;
-  cursor: pointer;
 }
 input[type=range]::-ms-track {
   width: 100%;
   height: 14px;
-  cursor: pointer;
   background: transparent;
   border-color: transparent;
   border-width: 39px 0;
@@ -147,7 +142,6 @@ input[type=range]::-ms-thumb {
   margin-top: -14px;
   border-radius: 20px;
   background :#470060;
-  cursor: pointer;
 }
 input[type=range]:focus::-ms-fill-lower {
   background :#470060;
@@ -206,7 +200,7 @@ section p span{
 }
 .back-black:hover{
   transform-origin: all;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   background:rgba(0,0,0,0.7);
 }
 .test a{
@@ -222,7 +216,7 @@ display: block;
 }
 .test a:hover{
   transform-origin: all;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   font-style: normal;
   font-weight: 800;
   font-size: 60px;
@@ -237,7 +231,7 @@ footer{
   margin-top:50px;
   height: 137px;
   background: #6FBA17;
-  width:1920px;
+  width:1440px;
   margin:0 auto;
 }
 .foot{
@@ -246,40 +240,27 @@ footer{
 @media(min-width:0px) and (max-width:1700px){
   img[src="img/new-ulstu.png"]{
     margin-top:30px;
-       float:right;
     margin-right: 0px;
   }
   img[src="img/new-ulstu-white.png"]{/*синяя*/
     margin-top:30px;
-       float:right;
     margin-right: -219px;
     opacity:0;
   }
   img[src="img/new-ulstu-white.png"]:hover{/*белая*/
     margin-top:30px;
-       float:right;
     margin-right: -219px;
-    opacity:1;
     transform-origin: all;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
   }
   .proect{
-    clear: right;
-    float:right;
     margin-right: 30px;
-    font-style: normal;
-    font-weight: 800;
     font-size: 25px;
     line-height: 30px;
-    color:#FFFFFF;
-    text-decoration: none;
     }
 }
 @media(min-width:1200px) and (max-width:1440px){
   header{
-    background: url(../img/house-fon.jpg);
-    background-position: center center;
-   background-repeat:no-repeat ;
     min-width: 1200px;
     margin:-15px;
 }
@@ -290,85 +271,65 @@ footer{
   margin:0px auto;
   margin-top:480px;
   padding-top:80px;
-font-style: normal;
 font-weight: 300;
 font-size: 37px;
 line-height: 54px;
 text-align: center;
 width: 80%;
-color: #0F1B8D;
 }
 .history{
-  clear: right;
-  font-style: normal;
-  font-weight: 800;
   font-size: 57px;
   line-height: 83px;
   width:70%;
   padding-top: 50px ;
   padding-bottom: 5px;
-  border-bottom: 3px solid #FFFFFF;
-  color: #FFFFFF;
   }
   .information{
-font-style: italic;
-font-weight: 300;
 font-size: 27px;
 line-height: 36px;
 width:70%;
 margin-bottom: 100px;
-color: #FFFFFF;
 }
 footer{
   margin-top:50px;
-  background: #6FBA17;
   width:1200px;
   margin:0 auto;
 }
 }
 @media(min-width:992px) and (max-width:1200px){
   input[type=range] {
-    -webkit-appearance: none;
-    width :80%;
+    width :85%;
     margin-left:30px;
   }
+  .all-line{
+    margin-left: 100px!important;
+  }
+  .all-line div{
+    margin-left: 15px!important;
+  }
 .history{
-  clear: right;
-  font-style: normal;
-  font-weight: 800;
   font-size: 45px;
   line-height: 83px;
   width:70%;
   padding-top: 50px ;
   padding-bottom: 5px;
-  border-bottom: 3px solid #FFFFFF;
-  color: #FFFFFF;
   }
   .information{
-font-style: italic;
-font-weight: 300;
 font-size: 20px;
 line-height: 36px;
 width:70%;
 margin-bottom: 100px;
-color: #FFFFFF;
 }
 .sect{
   margin:0px auto;
   margin-top:480px;
   padding-top:80px;
-font-style: normal;
-font-weight: 300;
 font-size: 27px;
 line-height: 54px;
 text-align: center;
 width: 80%;
-color: #0F1B8D;
 }
 header{
-  background: url(../img/house-fon.jpg);
-  background-position: center center;
- background-repeat:no-repeat ;
   min-width: 900px;
   margin:-15px;
 }
@@ -377,54 +338,44 @@ header{
 }
 footer{
   margin-top:50px;
-  background: #6FBA17;
   width:1200px;
   margin:0 auto;
 }
 }
 @media(min-width:768px) and (max-width:992px){
   input[type=range] {
-    -webkit-appearance: none;
     width :89%!important;
     margin-left:30px;
   }
+  header img{
+    height:110px;
+  }
+  .proect{
+    font-size:23px;
+  }
   .history{
-    clear: right;
-    font-style: normal;
-    font-weight: 800;
     font-size: 40px;
     line-height: 83px;
     width:70%;
     padding-top: 50px ;
     padding-bottom: 5px;
-    border-bottom: 3px solid #FFFFFF;
-    color: #FFFFFF;
     }
     .information{
-  font-style: italic;
-  font-weight: 300;
   font-size: 18px;
   line-height: 36px;
   width:100%;
   margin-bottom: 100px;
-  color: #FFFFFF;
   }
   .sect{
     margin:0px auto;
     margin-top:480px;
     padding-top:80px;
-  font-style: normal;
-  font-weight: 300;
   font-size: 22px;
   line-height: 54px;
   text-align: center;
   width: 80%;
-  color: #0F1B8D;
   }
   header{
-    background: url(../img/house-fon.jpg);
-    background-position: center center;
-   background-repeat:no-repeat ;
     min-width: 720px;
     margin:-15px;
   }
@@ -433,7 +384,6 @@ footer{
   }
   footer{
     margin-top:50px;
-    background: #6FBA17;
     width:720px;
     margin:0 auto;
   }
@@ -451,50 +401,41 @@ footer{
 }
 @media(min-width:576px) and (max-width:768px){
   input[type=range] {
-    -webkit-appearance: none;
     width :93%!important;
     margin-left:0px;
   }
+  header img{
+    height:110px;
+  }
+  .proect{
+    font-size:20px;
+  }
   .history{
-    clear: right;
-    font-style: normal;
-    font-weight: 800;
     font-size: 30px;
     line-height: 83px;
     width:70%;
     padding-top: 50px ;
     padding-bottom: 5px;
-    border-bottom: 3px solid #FFFFFF;
-    color: #FFFFFF;
     }
     .information{
-  font-style: italic;
-  font-weight: 300;
   font-size: 16px;
   line-height: 36px;
   width:100%;
   margin-bottom: 100px;
-  color: #FFFFFF;
   }
   .sect{
     margin:0px auto;
     margin-top:480px;
     padding-top:80px;
-  font-style: normal;
-  font-weight: 300;
   font-size: 22px;
   line-height: 54px;
   text-align: center;
   width: 80%;
-  color: #0F1B8D;
   }
   .chronology{
     font-size: 40px;
   }
   header{
-    background: url(../img/house-fon.jpg);
-    background-position: center center;
-   background-repeat:no-repeat ;
     min-width: 540px;
     margin:-15px;
   }
@@ -503,7 +444,6 @@ footer{
   }
   footer{
     margin-top:50px;
-    background: #6FBA17;
     width:540px;
     margin:0 auto;
   }
@@ -514,7 +454,6 @@ footer{
   input[type=range]::-moz-range-track {
     width: 80%;
     height: 10px;
-    cursor: pointer;
     border-radius: 25px;
   }
   input[type=range]::-moz-range-thumb {
@@ -533,11 +472,7 @@ footer{
   input[type=range]::-ms-track {
     width: 100%;
     height: 10px;
-    cursor: pointer;
-    background: transparent;
-    border-color: transparent;
     border-width: 39px 0;
-    color: transparent;
   }
   .line{
     width: 5px!important;    
@@ -574,6 +509,12 @@ footer{
     width :93%!important;
     margin-left:0px;
   }
+  header img{
+    height:80px;
+  }
+  .proect{
+    font-size:16px;
+  }
   .history{
     clear: right;
     font-style: normal;
@@ -606,12 +547,8 @@ footer{
   line-height: 54px;
   text-align: center;
   width: 80%;
-  color: #0F1B8D;
   }
   header{
-    background: url(../img/house-fon.jpg);
-    background-position: center center;
-   background-repeat:no-repeat ;
     min-width: auto;
     margin:-15px; 
   }
@@ -620,7 +557,6 @@ footer{
   }
   footer{
     margin-top:50px;
-    background: #6FBA17;
     width:auto;
     margin:0 auto;
   }
@@ -655,13 +591,9 @@ footer{
     margin-top : -10px;
    
   }
-  input[type=range]:focus::-webkit-slider-runnable-track {
-    background :#470060;
-  }
   input[type=range]::-moz-range-track {
     width: 80%;
     height: 10px;
-    cursor: pointer;
     border-radius: 25px;
   }
   input[type=range]::-moz-range-thumb {
@@ -673,18 +605,12 @@ footer{
   input[type=range]::-ms-track {
     width: 100%;
     height: 10px;
-    cursor: pointer;
-    background: transparent;
-    border-color: transparent;
     border-width: 39px 0;
-    color: transparent;
   }
   input[type=range]::-ms-fill-lower {
-    background :#470060;
     border-radius: 50px;
   }
   input[type=range]::-ms-fill-upper {
-    background :#470060;
     border-radius: 50px;
   }
   input[type=range]::-ms-thumb {
