@@ -1,5 +1,6 @@
 body{
   font-family: Lato;
+  margin: 0px auto;
 }
 header{
     background: url(../img/house-fon.jpg);
@@ -295,17 +296,12 @@ footer{
   width:1200px;
   margin:0 auto;
 }
+
 }
 @media(min-width:992px) and (max-width:1200px){
   input[type=range] {
     width :85%;
     margin-left:30px;
-  }
-  .all-line{
-    margin-left: 100px!important;
-  }
-  .all-line div{
-    margin-left: 15px!important;
   }
 .history{
   font-size: 45px;
@@ -340,6 +336,16 @@ footer{
   margin-top:50px;
   width:1200px;
   margin:0 auto;
+}
+
+.text-2,.text-4,.text-6,.text-8,.text-10{
+  margin-top:-100px!important;
+  
+}
+
+.all-line{
+  margin-bottom: -220px!important;
+
 }
 }
 @media(min-width:768px) and (max-width:992px){
@@ -391,12 +397,18 @@ footer{
     width: 7px!important;
     
   }
-  .all-line{
-    margin-left: 50px  !important;
-  }
-  .all-line div{
+  .text-2,.text-4,.text-6,.text-8,.text-10{
+    margin-top:-90px!important;
     
-    margin-left: 10px !important;
+  }
+  .text{
+    margin-left:-50%!important;
+    font-weight: 600;
+    font-size:12px!important;
+  }
+  .all-line{
+    margin-bottom: -210px!important;
+  
   }
 }
 @media(min-width:576px) and (max-width:768px){
@@ -439,6 +451,10 @@ footer{
     min-width: 540px;
     margin:-15px;
   }
+  .text{
+    font-weight: 400!important;
+    font-size:14px!important;
+  }
   .container{
     max-width:540px;
   }
@@ -477,17 +493,6 @@ footer{
   .line{
     width: 5px!important;    
   }
-  .all-line{
-    margin-left: 50px!important;
-  }
-  .all-line div{
-    
-    margin-left: 5px!important;
-  }
-  .all-line div{
-    
-    margin-left: 5px!important;
-  }
   .arrow-2 {
     display:inline-block;
    
@@ -500,10 +505,30 @@ footer{
     top: 29px!important;
     width: 70px!important;
   }
+  .text-2,.text-4,.text-6,.text-8,.text-10{
+    margin-top:-100px!important;
+    
+  }
+  .text{
+    margin-left:-50%!important;
+    font-weight: 600;
+    font-size:12px!important;
+  }
+  .all-line{
+    margin-bottom: -220px!important;
+  
+  }
+  .line{
+    height: 40px!important ;
+    
+  }
   
 }
 
 @media(max-width:576px){
+  body{
+    margin-left:20%;
+  }
   input[type=range] {
     -webkit-appearance: none;
     width :93%!important;
@@ -563,13 +588,6 @@ footer{
   .line{
     width: 5px!important;    
   }
-  .all-line{
-    margin-left: 20px!important;
-  }
-  .all-line div{
-    
-    margin-left: 5px!important;
-  }
   .arrow-2 {
     margin-left: 80%!important;
   }
@@ -619,6 +637,24 @@ footer{
     margin-top: -14px;
     border-radius: 20px;
   }
+  .text-2,.text-4,.text-6,.text-8,.text-10{
+    margin-top:-80px!important;
+    
+  }
+  .text{
+    margin-left:-50%!important;
+    font-weight: 500;
+    font-size:10px!important;
+    width:auto!important;
+  }
+  .all-line{
+    margin-bottom: -210px!important;
+  
+  }
+  .line{
+    height: 30px!important ;
+    
+  }
 }
 
 .arrow-2 {
@@ -657,16 +693,20 @@ footer{
   
 }
 .all-line{
-  margin-left: 200px;
+  margin-left: 12%;
+  margin-right: 4%;
   margin-top: -38px;
 }
-.all-line div{
-  
-  margin-left: 20px;
-}
 
-.text-2,.text-4,.text-6,.text-8{
+.text-2,.text-4,.text-6,.text-8,.text-10{
   margin-top:-80px;
+  
+}
+.text{
+  width:250%;
+  margin-left:-50%!important;
+  font-weight: 500;
+  font-size:16px;
 }
 .all-line,.arrow-2{
   margin-bottom: -200px;

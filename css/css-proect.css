@@ -252,6 +252,9 @@ footer{
    
   }
   body{
+    margin-left:20%;
+  }
+  body{
     width:576px;
   }
   .proect{
@@ -280,7 +283,7 @@ footer{
   }
   @media(max-width:576px){
     body{
-      width:auto;
+      margin-left:20%!important;
     }
     header img{
       height:80px;
