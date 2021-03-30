@@ -267,6 +267,9 @@ html{
       margin:0px;
      
     }
+    .menu div div a {
+      font-size: 18px;
+    }
     .proect{
       margin :0px;
     }
@@ -275,6 +278,15 @@ html{
       
         
     }
+    .mini-icon{
+      height:40px;
+      }
+      .link a{
+        font-size: 20px;
+      }
+      .istochnik{
+        font-size: 40px;
+      }
     #proect2{
       margin-top:900px;
       margin-left : 120px;
@@ -308,4 +320,21 @@ html{
     .img-blue-1,.img-blue-2,.img-blue-3{
       z-index: -20;
     }
+    }
+    @media(max-width:290px){
+header img {
+  height:80px;
+}
+.history{
+  font-size: 35px;
+}
+.for-proect{
+  font-size: 30px;
+}
+.mini-icon{
+height:20px;
+}
+.sect div a{
+  font-size:20px;
+}
     }
