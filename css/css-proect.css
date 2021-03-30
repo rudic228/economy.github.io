@@ -167,10 +167,29 @@ footer{
 }
 .foot{
   margin-top: 50px;
+  margin-left: -15px;
 }
 @media(min-width:992px) and (max-width:1440px){
 .sect, .istochnik-div{
-  margin-left:-80px;
+  margin-left:-10px;
+}
+.sect,header,.menu,.istochnik-div,.foot{
+  min-width: 992px;
+  width: 992px;
+}
+.history{
+  font-size: 55px;
+  margin-top: 60px;
+}
+.for-proect{
+  margin-top : 60px;
+  font-size: 50px;
+}
+.people,.link,.sect p{
+  font-size:40px;
+}
+.istochnik,header{
+  margin-left:50px;
 }
 }
 @media(min-width:768px) and (max-width:992px){
@@ -180,111 +199,69 @@ header img{
  
 }
 
-.proect{
-  margin :0px;
-}
-.history{
-  font-size: 50px;
-}
-.sect, .istochnik-div{
-  margin-right:0px;
-}
-.sect{
-  width:768px;
-  font-size: 30px;
-}
-header{
-  min-width:768px;
-  width:768px;
-}
-.menu{
-  width:768px;
-  margin-left:20px;
-}
-.istochnik,.for-proect{
+.people,.link,.sect p{
   font-size:40px;
+  margin-left:100px;
 }
-.sect{
-  margin-top:180px;
-  margin-left:-130px;
+.for-proect{
+  margin-top:80px;
+  font-size:50px;
 }
-.istochnik-div{
-  min-width:768px;
-  width:768px;
-  margin-left:-130px;
+.istochnik{
+  margin-left: 30px;
 }
-.proect-text{
-  font-size:20px;
+.sect,header,.menu,.istochnik-div,.foot, body .container-fluid, body,html{
+  min-width: 768px;
+  width: 768px;
 }
-.pr-1{
-  margin-left:10px;
-}
-.pr-2{
-  margin-left:20px;
-}
-.pr-3{
-  margin-left:30px;
-}
-footer{
-  width:768px;
-  margin-left:-50px;
+html{
+  margin: 0px!important;
+  padding: 0px!important;
+  box-sizing: border-box;
 }
 .foot{
-  margin-right:-50px;
-  
-  margin-left:40px;
+  margin-left:-15px;
 }
-.img-blue-1{
-  margin-left:-102px;
-}
-.img-blue-2{
-  margin-left:-93px;
-}
-.img-blue-3{
-  margin-left:-155px;
 }
 
-}
 @media(min-width:576px) and (max-width:768px){
   header img{
-    height:110px;
-    margin:0px;
+    display: inline-block;
+    height:100px;
+    margin:20px;
    
   }
-  body{
-    margin-left:20%;
+  .sect,header,.menu,.istochnik-div,.foot, body .container-fluid, body,html{
+    min-width: 576px;
+    width: 576px;
   }
-  body{
-    width:576px;
+  .history{
+    font-size: 45px;
+    margin-top: 60px;
   }
-  .proect{
-    margin :0px;
+  .for-proect{
+    margin-top : 40px;
+    font-size: 40px;
   }
-  .menu-centr{
-    margin-left:180px;
-    
-      
+  .people,.link,.sect p{
+    font-size:30px;
+    margin-left:100px;
   }
-  #proect2{
-    margin-top:900px;
-    margin-left : 120px;
+  .istochnik{
+    margin-left:40px;
   }
-  .sect{
-    width:576px;
+  .img-blue-1:hover,.img-blue-2:hover,.img-blue-3:hover{
+    opacity: 0;
   }
-  header{
-    min-width:576px;
+  .img-blue-1,.img-blue-2,.img-blue-3{
+    z-index: -20;
   }
-  .istochnik-div{
-    min-width:576px;
-    width:576px;
+  .foot{
+    margin-left:-15px;
   }
-
-  }
+}
   @media(max-width:576px){
-    body{
-      margin-left:20%!important;
-    }
+    
     header img{
       height:80px;
       margin:0px;
@@ -302,15 +279,33 @@ footer{
       margin-top:900px;
       margin-left : 120px;
     }
-    .sect{
-      width:auto;
+      .sect,header,.menu,.istochnik-div,.foot, body .container-fluid, body,html{
+      min-width: auto;
+      width: auto;
     }
-    header{
-      min-width:auto;
+    .history{
+      font-size: 40px;
+      margin-top: 60px;
     }
-    .istochnik-div{
-      min-width:auto;
-      width:auto;
+    .for-proect{
+      margin-top : 35px;
+      font-size: 40px;
     }
-
+    .people,.link,.sect p{
+      font-size:25px;
+      margin-left:120px;
+    }
+    .istochnik{
+      margin-left:40px;
+    }
+    .proect-text{
+      font-size: 20px;
+      margin-left:5px;
+    }
+    .img-blue-1:hover,.img-blue-2:hover,.img-blue-3:hover{
+      opacity: 0;
+    }
+    .img-blue-1,.img-blue-2,.img-blue-3{
+      z-index: -20;
+    }
     }
