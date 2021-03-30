@@ -653,7 +653,7 @@ footer{
     
   }
 }
-@media(min-width:380px){
+@media(max-width:380px){
   .text-2,.text-4,.text-6,.text-8,.text-10{
     margin-top:-80px!important;
     
