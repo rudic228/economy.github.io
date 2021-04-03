@@ -2,7 +2,7 @@ body{
     font-family: Lato;
   }
   header{
-      background: url(../img/house-fon.jpg);
+      background: url(../../img/house-fon.jpg);
       background-position: center center;
      background-repeat:no-repeat ;
       height: 453px;
@@ -73,14 +73,6 @@ img{
     color: #FFFFFF;
     }
     /*основной текст*/
-    .for-proect{
-        margin-top:150px;
-        margin-left: 50px;
-font-style: normal;
-font-weight: 800;
-font-size: 55px;
-
-    }
     .sect{
         margin:0px auto;
         margin-top:130px;
@@ -98,15 +90,6 @@ font-size: 55px;
       }
 p{
     text-align: left;
-}
-.istochnik{
-    font-family: Lato;
-    margin-left:-50px;
-font-style: normal;
-font-weight: bold;
-font-size: 50px;
-line-height: 60px;
-color: #012F03; 
 }
 .istochnik-div{
     margin:0px auto;
@@ -179,18 +162,11 @@ footer{
 }
 .sect,header,.menu,.istochnik-div,.foot{
   min-width: 992px;
-  width: 992px;
+  width: 100%
 }
 .history{
   font-size: 55px;
   margin-top: 60px;
-}
-.for-proect{
-  margin-top : 60px;
-  font-size: 50px;
-}
-.people,.link,.sect p{
-  font-size:40px;
 }
 .istochnik,header{
   margin-left:50px;
@@ -202,37 +178,9 @@ header img{
   margin:0px;
  
 }
-
-.people,.link,.sect p{
-  font-size:40px;
-  margin-left:100px;
-}
-.for-proect{
-  margin-top:80px;
-  font-size:50px;
-}
-.istochnik{
-  margin-left: 30px;
-}
 .sect,header,.menu,.istochnik-div,.foot, body .container-fluid, body,html{
   min-width: 768px;
   width: 768px;
-}
-.for-proect{
-  margin-top : 100px;
-  font-size: 30px;
-  margin-left: 30px;
-}
-.istochnik{
-  font-size: 30px;
-  margin-left: 20px;
-}
-.people,.link,.sect p{
-  font-size:35px;
-  margin-left:100px;
-}
-.vk,.inst{
-  font-size: 30px;
 }
 html{
   margin: 0px!important;
@@ -276,26 +224,6 @@ html{
     font-size: 35px;
     margin-top: 20px;
     margin-bottom: 100px;
-  }
-  .for-proect{
-    margin-top : 40px;
-    font-size: 30px;
-    margin-left: 30px;
-  }
-  .people,.link,.sect p{
-    font-size:25px;
-    margin-left:100px;
-  }
-  .vk,.inst{
-    font-size: 20px;
-  }
-  .mini-icon{
-    height:40px;
-    margin-left: 20px;
-  }
-  .istochnik{
-    margin-left:20px;
-    font-size:30px;
   }
   
   .foot{
@@ -374,18 +302,6 @@ html{
       font-size: 25px;
       margin-top: -10px;
     }
-    .for-proect{
-      margin-top : 65px;
-      font-size: 30px;
-    }
-    .people,.link,.sect p{
-      font-size:25px;
-      margin-left:120px;
-    }
-    .istochnik{
-      margin-left:40px;
-      font-size: 30px;
-    }
     .proect-text{
       font-size: 20px;
       margin-left:5px;
@@ -404,13 +320,216 @@ header img {
 .history{
   font-size: 35px;
 }
-.for-proect{
-  font-size: 30px;
-}
-.mini-icon{
-height:20px;
-}
 .sect div a{
   font-size:20px;
 }
     }
+
+
+.runt{
+  height:80px;
+  margin-top:80px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.time-obs{
+width:100%;
+height:20%;
+background: #6FBA17;
+margin-top: 50px;
+}
+.time{
+  width: 40%;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  margin-top:-50px;
+  z-index: 100;
+  background: #6FBA17;
+  color:#0d5806;
+  font-size: 30px;
+  font-weight: 700;
+}
+section h3{
+  text-align: center;
+  border-bottom: 2px  solid  #470060;
+  color:#470060;
+  font-weight: 600;
+  display: block;
+  margin-top:50px;
+  clear:both;
+
+}
+.img-left{
+  float:left;
+}
+.img-right{
+  float:right;
+}
+.text-right{
+  float:right;
+}
+.text-left{
+  float:left;
+}
+.text{
+  clear: both;
+  width:100%;
+}
+.foot{
+  clear:right;
+ 
+}
+.text-right,.text-left{
+ width: 80%;
+
+}
+.text-2{
+  width: 70%;
+}
+.img-1{
+  height:300px;
+  margin-left:70px;
+}
+.img-2{
+  width:100%!important;
+  height:auto!important;
+}
+.img-3{
+  height:400px;
+  width: auto;
+  display: block;
+  margin: 0px auto;
+  margin-top:30px;
+ 
+}
+.img-4,.img-5{
+  height:250px;
+}
+.text-1{
+  margin-bottom:20px;
+}
+.text-2{
+  margin-top:20px;
+  margin-bottom:70px;
+}
+.text-3{
+  margin-top:50px;
+}
+.text-4,.text-5{
+  margin-top:40px;
+  text-align: center;
+}
+.text-6{
+  margin-bottom:20px;
+  margin-top:50px;
+}
+.text-9{
+  margin-bottom: 70px;
+}
+hr{
+  width:20%;
+ margin-left: auto;
+ margin-right: auto;
+}
+ol{
+  background:#caa7c0;
+}
+
+@media(min-width:1140px)and (max-width:1440px){
+  .time{
+    font-size:25px;
+  }
+  .img-1,.img-2{
+    height:230px;
+  }
+}
+@media(min-width:780px)and (max-width:1140px){
+  .time{
+    font-size: 20px;
+    padding-top:10px;
+  }
+  .text-right,.text-left{
+    width: 70%;
+   
+   }
+   .img-1{
+     margin-left:0;
+    height:250px;
+    margin-top:30px;
+  }
+   .text-2{
+     width: 70%;
+   }
+  .img-3{
+    margin-bottom:0px;
+    height:300px;
+  }
+  .img-4,.img-5{
+    height:270px;
+  }
+}
+@media(min-width:576px)and (max-width:780px){
+  .time{
+    font-size: 20px;
+    width:40%;
+  }
+  .img-1{
+    width:60%;
+    margin-left: 15%;
+    height: auto;
+  }
+  .text-2{
+    width: 100%;
+  }
+  .img-2{
+    height:120px;
+  }
+  .img-3{
+    height:300px;
+  }
+  
+  .img-4,.img-5{
+    height: 150px;
+  }
+  .text-8,.text-10{
+    width: 75%;
+  }
+  ol{
+    margin: 0 auto;
+  }
+.surtext-1,.surtext-2{
+  width: 700px;
+  float:left;
+  margin-left: -33%;
+}
+.surtext-2{
+  margin-left: -25%;
+}
+h3{
+  font-size:25px;
+}
+}
+@media (max-width:576px){
+  .time{
+    font-size: 20px;
+    width:40%;
+  }
+  .text-left,.text-right,.text{
+    width:100%;
+    text-align: center;
+  }
+section img{
+    display: block;
+    width:70%;
+    margin-left: 15%;
+ 
+  }
+  .img-4{
+    margin-top:50px;
+  }
+  .img-2{
+    width:80%!important;
+    height:200%!important;
+  }
+}
