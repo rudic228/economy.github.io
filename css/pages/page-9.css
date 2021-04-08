@@ -2,7 +2,7 @@ body{
     font-family: Lato;
   }
   header{
-      background: url(../img/house-fon.jpg);
+      background: url(../../img/house-fon.jpg);
       background-position: center center;
      background-repeat:no-repeat ;
       height: 453px;
@@ -73,14 +73,6 @@ img{
     color: #FFFFFF;
     }
     /*основной текст*/
-    .for-proect{
-        margin-top:150px;
-        margin-left: 50px;
-font-style: normal;
-font-weight: 800;
-font-size: 55px;
-
-    }
     .sect{
         margin:0px auto;
         margin-top:130px;
@@ -99,15 +91,6 @@ font-size: 55px;
 p{
     text-align: left;
 }
-.istochnik{
-    font-family: Lato;
-    margin-left:-50px;
-font-style: normal;
-font-weight: bold;
-font-size: 50px;
-line-height: 60px;
-color: #012F03; 
-}
 .istochnik-div{
     margin:0px auto;
     margin-top:80px;
@@ -115,8 +98,9 @@ color: #012F03;
     padding-top:80px;
   font-style: normal;
   font-weight: 300;
-  font-size: 28px;
-  line-height: 54px;  
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
   width: 80%;
   color: #0F1B8D;
   background: rgba(144, 207, 158, 0.5);
@@ -161,9 +145,6 @@ font-size: 35px;
 .container{
   padding-left:0px;
 }
-.text{
-  margin-right:50px;
-}
 footer{
   margin-top:50px;
   height: 137px;
@@ -181,18 +162,11 @@ footer{
 }
 .sect,header,.menu,.istochnik-div,.foot{
   min-width: 992px;
-  width: 992px;
+  width: 100%
 }
 .history{
   font-size: 55px;
   margin-top: 60px;
-}
-.for-proect{
-  margin-top : 60px;
-  font-size: 50px;
-}
-.people,.link,.sect p{
-  font-size:40px;
 }
 .istochnik,header{
   margin-left:50px;
@@ -204,36 +178,9 @@ header img{
   margin:0px;
  
 }
-
-.people,.link,.sect p{
-  font-size:40px;
-  margin-left:100px;
-}
-.for-proect{
-  margin-top:80px;
-  font-size:50px;
-}
-.istochnik{
-  margin-left: 30px;
-}
 .sect,header,.menu,.istochnik-div,.foot, body .container-fluid, body,html{
   min-width: 768px;
   width: 768px;
-}
-.for-proect{
-  margin-top : 100px;
-  font-size: 30px;
-  margin-left: 30px;
-}
-.istochnik-div{
-  margin-left: -20px;
-}
-.people,.link,.sect p{
-  font-size:35px;
-  margin-left:100px;
-}
-.vk,.inst{
-  font-size: 30px;
 }
 html{
   margin: 0px!important;
@@ -277,25 +224,6 @@ html{
     font-size: 35px;
     margin-top: 20px;
     margin-bottom: 100px;
-  }
-  .for-proect{
-    margin-top : 40px;
-    font-size: 30px;
-    margin-left: 30px;
-  }
-  .people,.link,.sect p{
-    font-size:25px;
-    margin-left:100px;
-  }
-  .vk,.inst{
-    font-size: 20px;
-  }
-  .mini-icon{
-    height:40px;
-    margin-left: 20px;
-  }
-  .istochnik-div{
-    margin-left:-20px;
   }
   
   .foot{
@@ -374,18 +302,7 @@ html{
       font-size: 25px;
       margin-top: -10px;
     }
-    .for-proect{
-      margin-top : 65px;
-      font-size: 30px;
-    }
-    .people,.link,.sect p{
-      font-size:25px;
-      margin-left:120px;
-    }
-    .istochnik-div{
-      margin-left:0px;
-    }
-    .proect-text,.istochnik-div{
+    .proect-text{
       font-size: 20px;
       margin-left:5px;
     }
@@ -403,13 +320,245 @@ header img {
 .history{
   font-size: 35px;
 }
-.for-proect{
-  font-size: 30px;
-}
-.mini-icon{
-height:20px;
-}
-.sect div a,.istochnik-div{
+.sect div a{
   font-size:20px;
 }
     }
+
+
+.runt{
+  height:80px;
+  margin-top:80px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.time-obs{
+width:100%;
+height:20%;
+background: #6FBA17;
+margin-top: 50px;
+}
+.time{
+  width: 40%;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  margin-top:-50px;
+  z-index: 100;
+  background: #6FBA17;
+  color:#0d5806;
+  font-size: 30px;
+  font-weight: 700;
+}
+section{
+  font-size: 20px;
+}
+section h3{
+  text-align: center;
+  border-bottom: 2px  solid  #470060;
+  color:#470060;
+  font-weight: 600;
+  display: block;
+  margin-top:50px;
+  clear:both;
+
+}
+section h4{
+  text-align: left;
+  font-weight: 700;
+  display: block;
+  margin-top:30px;
+  margin-bottom: 20px;
+  clear:both;
+
+}
+.text{
+  clear: both;
+}
+.foot{
+  clear:both;
+ 
+}
+.img-left{
+  float:left;
+}
+.img-right{
+  float:right;
+}
+.img-1,.img-2{
+margin-top: 50px;
+  height:30%;
+  width:30%;
+}
+.img-2{
+  height:40%;
+  width:40%;
+}
+.img-2{
+  margin-right:20px;
+}
+.img-3,.img-4{
+ height:250px;
+ margin-bottom:50px;
+}
+.img-3{
+  margin-right: 20px;
+}
+.img-4{
+  margin-left: 20px;
+}
+.img-5,.img-6{
+  height:250px;
+ }
+ ul{
+   list-style-type: none;
+ }
+.text-1,ul,.text-4,.text-7,.text-8{
+  clear:none;
+}
+.text-2{
+  margin-top:40px;
+  margin-bottom:20px;
+}
+.text-3{
+  margin-top:20px;
+  margin-bottom:20px;
+  background:#caa7c0;
+}
+.text-6,.text-5{
+  margin-top:40px;
+ margin-bottom: 30px;
+}
+.text-6{
+  margin-top:100px;
+}
+.text-9{
+  margin-bottom: 70px;
+}
+ol,ul,li,.text{
+  text-align: left;
+  font-size:24px;
+}
+
+.ul-ol{
+  background:rgba(172, 132, 179, 0.4);
+}
+.text-7,.text-8,.ol-3{
+  margin-bottom:30px;
+}
+.text-12{
+  font-size: 20px;
+}
+.text-9,.text-10,.text-11{
+  margin-bottom: 15px;
+}
+.text-13{
+  margin-top:20px;
+}
+
+@media(min-width:1140px)and (max-width:1440px){
+  .time{
+    font-size:25px;
+  }
+  .img-1{
+    height:410px;
+    width:auto;
+  }
+  .img-3{
+    height:300px;
+  }
+  .text-6{
+    margin-top:0px;
+  }
+  
+}
+@media(min-width:780px)and (max-width:1140px){
+  .time{
+    font-size: 20px;
+    padding-top:10px;
+  }
+   .img-1{
+    height:300px;
+    width:auto;
+  }
+  .img-2{
+    margin-bottom:0px;
+  }
+  .img-3,.img-4{
+    height:220px;
+  }
+.img-5{
+  margin-top:40px;
+  height:200px;
+}
+.img-6{
+  height:180px;
+}
+}
+@media(min-width:576px)and (max-width:780px){
+  .time{
+    font-size: 20px;
+    width:40%;
+  }
+  .img-1{
+    
+    height:250px;
+  }
+  .img-3,.img-4{
+    height:90%;
+    width:90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:2%;
+  }
+  .img-4{
+    margin-left:5%;
+  }
+  .img-5{
+    height:200px;
+  }
+  .text-8{
+    clear:both;
+  }
+h3{
+  font-size:25px;
+}
+}
+@media (max-width:576px){
+  .time{
+    font-size: 20px;
+    width:40%;
+  }
+  .img-1,.img-2,.img-3,.img-4{
+    
+  clear:both;
+  display: block;
+  margin-right: 0;
+  max-width:90%;
+  margin-left: 10%;
+float:none;
+  }
+  .img-1,.img-2,.img-3,.img-6{
+    margin:0;
+    height:90%;
+    width:90%;
+    margin-left:2%;
+  }
+  .img-5{
+    float:right;
+    height:150px;
+  }
+ .img-4{
+   margin-left:7%;
+ }
+  .text-5,.text-6{
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+  .text{
+    clear:both!important;
+  }
+  .text-7{
+    clear:none!important;
+  }
+}
