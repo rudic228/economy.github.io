@@ -1,0 +1,6 @@
+.text-1,.text-2,.text-3,.out-1,.out-2,.out-3{
+    display: inline-block;
+}
+.out-1,.out-2,.out-3{
+    background: rgba(196, 196, 196, 0.7);
+}

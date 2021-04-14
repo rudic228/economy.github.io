@@ -1,1 +1,0 @@
-getElementsByClassName('proect');

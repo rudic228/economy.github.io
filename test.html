@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/test.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Test</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="menu">
+                <div class=" row menu">
+                    <div class="col-4">
+                        <img src="img/home.png" alt="">
+                        <a href="index.html" class = "img-blue-1"><img src="img/home-blue.png" alt=""></a>
+                        <a href="index.html" class="proect-text pr-1">Главная</a>
+                    </div>
+                    <div class="col-4">
+                        <img src="img/menu-icon.png" alt="">
+                        <a href="test.html" class = "img-blue-2"><img src="img/menu-icon-blue.png" alt=""></a>
+                        <a href="test.html" class="proect-text pr-2">Тесты</a>
+                    </div>
+                    <div class="col-4">
+                        <img src="img/new-ulstu.png" alt="">
+                        <a href="economy-proect.html" class = "img-blue-3"><img src="img/new-ulstu-white.png" alt=""></a>
+                        <a href="economy-proect.html" class="proect-text pr-3">О проекте</a>
+                    </div>
+                </div>
+                <h1 class="history">История налогообложения</h1>
+             </div>
+    </div>
+</header>
+<div class="container">
+    <div class="test-form" >
+        <div class="hid-form">
+            <div class="col-12 row">
+                <div class="col-8"><h2>Тест</h2></div>
+                <div class="col-4"><div class="time"></div></div>
+            </div>
+            <p></p><br>
+            <div id="question">Дань, взымавшаяся в XIII веке в пользу ханов Золотой Орды, называлась ...</div>
+            <div id="messageAreaFinish"></div>
+            <div id="messageArea"></div>
+            <form class="form-test">
+              <div id="background-test-1"><input type="radio" id="test-1" class="testNoReponse" name="test"><label for="test-1" id="info-test-1" class="info-text"></label>  <br></div>
+             <div id="background-test-2">  <input type="radio" id="test-2" class="testNoReponse" name="test"><label for="test-2" id="info-test-2" class="info-text"></label><br></div> 
+              <div id="background-test-3"><input type="radio" id="test-3" class="testNoReponse" name="test"><label for="test-3" id="info-test-3" class="info-text"></label>  <br></div>
+            <div id="background-test-4">    <input type="radio" id="test-4" class="testNoReponse" name="test"><label for="test-4" id="info-test-4" class="info-text"></label><br></div>
+            <img src="img/finish-img.jpg" alt="" class="finish-img" hidden="true">
+            <div class="col-12 row">
+               <div class="col-4">
+                    <input type="button" id="submitButton" value="Выбрать">
+                </div>
+                <div class="col-4">
+                    <input type="button" id="nextButton" value="Далее">
+                </div>
+               <div class="col-4"> 
+                <input type="button" id="resetButton" value="Сначала" >
+               </div> 
+            </div>  
+            
+            </form>
+        </div>   
+    </div>
+</div>
+    <script src="js/test.js" ></script>
+</body>
+</html>

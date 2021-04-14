@@ -10,33 +10,33 @@ body{
       margin:-15px;
      
   }
-
-img{
+  
+  img{
     height : 158px;
-}
-.menu{
+  }
+  .menu{
   margin-left:250px;
   width:1440px;
   margin :0px auto;
-}
-.img-blue-1{
+  }
+  .img-blue-1{
   margin-left:-146px;
   opacity: 0;
-}
-.img-blue-2{
+  }
+  .img-blue-2{
   margin-left:-133px;
   opacity: 0;
-}
-.img-blue-3{
+  }
+  .img-blue-3{
   margin-left:-363px;
   opacity: 0;
-}
-.img-blue-1:hover,.img-blue-2:hover,.img-blue-3:hover{
+  }
+  .img-blue-1:hover,.img-blue-2:hover,.img-blue-3:hover{
   opacity:1;
   transform-origin: all;
   transition-duration: 0.5s;
-}
-.proect-text {
+  }
+  .proect-text {
   cursor:pointer;
   display:block;
   font-style: normal;
@@ -46,22 +46,22 @@ img{
   color: #FFFFFF;
   text-decoration: none;
   margin-top: 20px;
-}
-.pr-1{
+  }
+  .pr-1{
   margin-left:20px;
-}
-.pr-2{
+  }
+  .pr-2{
   margin-left:30px;
-}
-.pr-3{
+  }
+  .pr-3{
   margin-left:50px;
-}
-.proect-text:hover{
+  }
+  .proect-text:hover{
   color:#0F1B8D;
   transform-origin: all;
   transition-duration: 0.5s;
-}
-.history{
+  }
+  .history{
     font-style: normal;
     font-weight: 800;
     font-size: 69px;
@@ -76,10 +76,10 @@ img{
     .for-proect{
         margin-top:150px;
         margin-left: 50px;
-font-style: normal;
-font-weight: 800;
-font-size: 55px;
-
+  font-style: normal;
+  font-weight: 800;
+  font-size: 55px;
+  
     }
     .sect{
         margin:0px auto;
@@ -96,19 +96,19 @@ font-size: 55px;
       background: rgba(144, 207, 158, 0.5);
       width:1140px;
       }
-p{
+  p{
     text-align: left;
-}
-.istochnik{
+  }
+  .istochnik{
     font-family: Lato;
     margin-left:-50px;
-font-style: normal;
-font-weight: bold;
-font-size: 50px;
-line-height: 60px;
-color: #012F03; 
-}
-.istochnik-div{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  color: #012F03; 
+  }
+  .istochnik-div{
     margin:0px auto;
     margin-top:80px;
     margin-left:-120px;
@@ -121,9 +121,9 @@ color: #012F03;
   color: #0F1B8D;
   background: rgba(144, 207, 158, 0.5);
   width:1140px;
- min-height: 1000px;
-}
-
+  min-height: 1000px;
+  }
+  
   .mini-icon{
     margin-left:40px;
     height:60px;
@@ -132,144 +132,144 @@ color: #012F03;
   .inst-icon{
     margin-top:10px;
   }
-.link{
+  .link{
   text-align: left;
   margin-left:0px;
-}
-.people{
-margin-left: 40px;
-}
-.inst,.vk{
+  }
+  .people{
+  margin-left: 40px;
+  }
+  .inst,.vk{
   margin-left:20px;
   margin-top:10px;
   text-decoration: none;
   font-style: normal;
-font-weight: normal;
-font-size: 35px;
-
-}
-.vk{
+  font-weight: normal;
+  font-size: 35px;
+  
+  }
+  .vk{
   color: #19316D;
-}
-.people{
+  }
+  .people{
   margin-top: 60px;
   margin-bottom:-45px;
-}
-.inst{
+  }
+  .inst{
   color: #740755;
-}
-.container{
+  }
+  .container{
   padding-left:0px;
-}
-.text{
+  }
+  .text{
   margin-right:50px;
-}
-footer{
+  }
+  footer{
   margin-top:50px;
   height: 137px;
   background: #6FBA17;
   max-width:1920px;
   margin:0 auto;
-}
-.foot{
+  }
+  .foot{
   margin-top: 50px;
   margin-left: -15px;
-}
-@media(min-width:992px) and (max-width:1440px){
-.sect, .istochnik-div{
+  }
+  @media(min-width:992px) and (max-width:1440px){
+  .sect, .istochnik-div{
   margin-left:-10px;
-}
-.sect,header,.menu,.istochnik-div,.foot{
+  }
+  .sect,header,.menu,.istochnik-div,.foot{
   min-width: 992px;
   width: 992px;
-}
-.img-blue-3{
+  }
+  .img-blue-3{
   margin-left:-364px;
   margin-top:-500px;
-}
-img[src="img/new-ulstu.png"]{
+  }
+  img[src="img/new-ulstu.png"]{
   margin-left:-55px;
-}
-.history{
-  font-size: 55px;
+  }
+  .history{
+  font-size: 45px;
   margin-top: 60px;
-}
-.for-proect{
+  }
+  .for-proect{
   margin-top : 60px;
   font-size: 50px;
-}
-.people,.link,.sect p{
+  }
+  .people,.link,.sect p{
   font-size:40px;
-}
-.istochnik,header{
+  }
+  .istochnik,header{
   margin-left:50px;
-}
-}
-@media(min-width:768px) and (max-width:992px){
-header img{
+  }
+  }
+  @media(min-width:768px) and (max-width:992px){
+  header img{
   height:110px;
   margin:0px;
- 
-}
-
-.people,.link,.sect p{
+  
+  }
+  
+  .people,.link,.sect p{
   font-size:40px;
   margin-left:100px;
-}
-.for-proect{
+  }
+  .for-proect{
   margin-top:80px;
   font-size:50px;
-}
-.istochnik{
+  }
+  .istochnik{
   margin-left: 30px;
-}
-.sect,header,.menu,.istochnik-div,.foot, body .container-fluid, body,html{
+  }
+  .sect,header,.menu,.istochnik-div,.foot, body .container-fluid, body,html{
   min-width: 768px;
   width: 768px;
-}
-.for-proect{
+  }
+  .for-proect{
   margin-top : 100px;
   font-size: 30px;
   margin-left: 30px;
-}
-.istochnik-div{
+  }
+  .istochnik-div{
   margin-left: -20px;
-}
-.people,.link,.sect p{
+  }
+  .people,.link,.sect p{
   font-size:35px;
   margin-left:100px;
-}
-.vk,.inst{
+  }
+  .vk,.inst{
   font-size: 30px;
-}
-html{
+  }
+  html{
   margin: 0px!important;
   padding: 0px!important;
   box-sizing: border-box;
-}
-.foot{
+  }
+  .foot{
   margin-left:-15px;
-}
-.img-blue-3,.img-blue-2,.img-blue-1{
+  }
+  .img-blue-3,.img-blue-2,.img-blue-1{
   display: block;
   margin-left: 0px;
   margin-top:-110px
-}
-.pr-1{
+  }
+  .pr-1{
   margin-left:5px;
-}
-.pr-2{
+  }
+  .pr-2{
   margin-left: 10px;
-}
-.pr-3{
+  }
+  .pr-3{
   margin-left: 20px;
-}
-.history{
-  font-size: 50px;
-}
-}
-
-@media(min-width:576px) and (max-width:768px){
+  }
+  .history{
+  font-size: 40px;
+  }
+  }
+  
+  @media(min-width:576px) and (max-width:768px){
   header img{
     display: inline-block;
     height:90px;
@@ -326,7 +326,7 @@ html{
   .pr-3{
     margin-left: 30px;
   }
-}
+  }
   @media(max-width:576px){
     
     header img{
@@ -411,19 +411,29 @@ html{
     }
     }
     @media(max-width:290px){
-header img {
+  header img {
   height:80px;
-}
-.history{
+  }
+  .history{
   font-size: 35px;
-}
-.for-proect{
+  }
+  .for-proect{
   font-size: 30px;
-}
-.mini-icon{
-height:20px;
-}
-.sect div a,.istochnik-div{
+  }
+  .mini-icon{
+  height:20px;
+  }
+  .sect div a,.istochnik-div{
   font-size:20px;
-}
+  }
     }
+    .test-form{
+        background: rgba(172, 132, 179,0.5);
+        margin-top:20px;
+    }
+    h2{
+        margin-top:100px!important;
+    }
+.time{
+  margin-top:80%;
+}
