@@ -115,6 +115,11 @@ let view = {
         return num;
       },
       nextquestion:function(){
+        let img = document.querySelector("#img-rep");
+        let x =model.quantityReponses+1;
+        //\img\test
+        if(x<=20)
+        img.innerHTML='<img src="img/test/' +x+ '.jpg">';
         let question = document.querySelector('#question');
         question.innerHTML = (this.questions[this.quantityReponses]);
         let test = document.querySelectorAll('.info-text');
@@ -193,13 +198,10 @@ let view = {
             let radioCheck=document.querySelector('#test-'+j);
               if(radioCheck.checked){
                 model.submitState[model.get_quenttityReponses()] = true;
-                console.log(model.submitState);
                 localStorage.setItem('lastRep', JSON.stringify(j));
                 localStorage.setItem('sumbit', JSON.stringify(model.submitState));
                 model.reponse(j);
                 
-                console.log("parserep")
-                //model.parseReponse(j);
                 setLS();
                 return true;
             }
@@ -341,7 +343,7 @@ else{
             min++;
         }
         if(min==15){
-            draw();
+            ending();
             clearInterval(timer);
             return;   
        
@@ -356,5 +358,13 @@ else{
       if(min<10)minStr=0+""+min;
     let blockTime=document.querySelector(".time")
     blockTime.innerHTML = minStr+" : "+secStr;
+    
+  }
+  function ending(){
+      draw();
+    model.quantityReponses = 20;
+    kol=20;
+    localStorage.setItem('numTrue', JSON.stringify(kol));
+    model.isFinal();
   }
   

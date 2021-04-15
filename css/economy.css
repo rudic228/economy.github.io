@@ -18,7 +18,7 @@ img[src="img/new-ulstu.png"]{ /*белая*/
 img[src="img/new-ulstu-white.png"]{ /*синяя*/
   margin-top:30px;
      float:right;
-  margin-right: -219px;
+  margin-right: -243px;
   opacity:0;
 }
 img[src="img/new-ulstu-white.png"]:hover{
@@ -181,7 +181,7 @@ section p span{
   padding-top:80px;
   border-top: 5px solid  #0F1B8D;
 }
-.test{
+.test,.calc{
   margin-top: 40px;
   background:url(../img/test-fon.jpg);
   width: 100%;
@@ -189,6 +189,9 @@ section p span{
   border-radius: 28px;
   text-align: center;
   cursor: pointer;
+}
+.calc{
+  background:url(../img/test-fon.jpg) center center;
 }
 .back-black{
   background:rgba(0,0,0,0);
@@ -201,7 +204,7 @@ section p span{
   transition-duration: 0.5s;
   background:rgba(0,0,0,0.7);
 }
-.test a{
+.test a,.calc a{
   font-style: normal;
   font-weight: 800;
   font-size: 60px;
@@ -237,7 +240,7 @@ footer{
   }
   img[src="img/new-ulstu-white.png"]{/*синяя*/
     margin-top:30px;
-    margin-right: -219px;
+    margin-right: -242px;
     opacity:0;
   }
   img[src="img/new-ulstu-white.png"]:hover{/*белая*/
@@ -344,7 +347,7 @@ footer{
     margin-left:30px;
   }
   img[src="img/new-ulstu-white.png"]{
-    margin-right: -152px;
+    margin-right: -251px;
     }
   header img{
     height:110px;
@@ -410,7 +413,7 @@ footer{
     margin-left:0px;
   }
   img[src="img/new-ulstu-white.png"]{
-    margin-right: -152px;
+    margin-right: -251px;
     }
   header img{
     height:110px;
@@ -528,7 +531,7 @@ footer{
     margin-left:0px;
   }
   img[src="img/new-ulstu-white.png"]{
-    margin-right: -111px;
+    margin-right: -182px;
     box-sizing: content-box;
     }
   header img{

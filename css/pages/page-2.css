@@ -519,7 +519,6 @@ hr{
  margin-right: auto;
 }
 ol,ul,li,.text{
-  text-align: left;
   font-size:24px;
 }
 
@@ -550,9 +549,6 @@ ol,ul,li,.text{
     height:320px;
   }
   .text-6{
-    
-    
-    
 margin-bottom:40px;
   }
   

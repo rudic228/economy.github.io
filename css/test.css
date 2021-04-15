@@ -435,5 +435,14 @@ body{
         margin-top:100px!important;
     }
 .time{
-  margin-top:80%;
+  margin-top:50%;
+  background:#6FBA17;
+  color:red;
+  display: inline-block;
+}
+.testTrue{
+  background:lightgreen;
+}
+.testFalse{
+  background:crimson;
 }

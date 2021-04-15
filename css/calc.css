@@ -1,6 +1,446 @@
+body{
+    font-family: Lato;
+  }
+  header{
+      background: url(../img/house-fon.jpg);
+      background-position: center center;
+     background-repeat:no-repeat ;
+      height: 453px;
+      min-width: 1440px;
+      margin:-15px;
+     
+  }
+
+img{
+    height : 158px;
+}
+.menu{
+  margin-left:250px;
+  width:1440px;
+  margin :0px auto;
+}
+.img-blue-1{
+  margin-left:-146px;
+  opacity: 0;
+}
+.img-blue-2{
+  margin-left:-133px;
+  opacity: 0;
+}
+.img-blue-3{
+  margin-left:-363px;
+  opacity: 0;
+}
+.img-blue-1:hover,.img-blue-2:hover,.img-blue-3:hover{
+  opacity:1;
+  transform-origin: all;
+  transition-duration: 0.5s;
+}
+.proect-text {
+  cursor:pointer;
+  display:block;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.pr-1{
+  margin-left:20px;
+}
+.pr-2{
+  margin-left:30px;
+}
+.pr-3{
+  margin-left:50px;
+}
+.proect-text:hover{
+  color:#0F1B8D;
+  transform-origin: all;
+  transition-duration: 0.5s;
+}
+.history{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 69px;
+    line-height: 83px;
+    width:70%;
+    padding-top: 50px ;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #FFFFFF;
+    color: #FFFFFF;
+    }
+    /*основной текст*/
+    .for-proect{
+        margin-top:150px;
+        margin-left: 50px;
+font-style: normal;
+font-weight: 800;
+font-size: 55px;
+
+    }
+    .sect{
+        margin:0px auto;
+        margin-top:130px;
+        margin-left:-120px;
+        padding-top:80px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 45px;
+      line-height: 54px;
+      text-align: center;
+      width: 80%;
+      color: #0F1B8D;
+      background: rgba(144, 207, 158, 0.5);
+      width:1140px;
+      }
+p{
+    text-align: left;
+}
+.istochnik{
+    font-family: Lato;
+    margin-left:-50px;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 60px;
+color: #012F03; 
+}
+.istochnik-div{
+    margin:0px auto;
+    margin-top:80px;
+    margin-left:-120px;
+    padding-top:80px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 54px;  
+  width: 80%;
+  color: #0F1B8D;
+  background: rgba(144, 207, 158, 0.5);
+  width:1140px;
+ min-height: 1000px;
+}
+
+  .mini-icon{
+    margin-left:40px;
+    height:60px;
+    padding-left:0px;
+  }
+  .inst-icon{
+    margin-top:10px;
+  }
+.link{
+  text-align: left;
+  margin-left:0px;
+}
+.people{
+margin-left: 40px;
+}
+.inst,.vk{
+  margin-left:20px;
+  margin-top:10px;
+  text-decoration: none;
+  font-style: normal;
+font-weight: normal;
+font-size: 35px;
+
+}
+.vk{
+  color: #19316D;
+}
+.people{
+  margin-top: 60px;
+  margin-bottom:-45px;
+}
+.inst{
+  color: #740755;
+}
+.container{
+  padding-left:0px;
+}
+.text{
+  margin-right:50px;
+}
+footer{
+  margin-top:50px;
+  height: 137px;
+  background: #6FBA17;
+  max-width:1920px;
+  margin:0 auto;
+}
+.foot{
+  margin-top: 50px;
+  margin-left: -15px;
+}
+@media(min-width:992px) and (max-width:1440px){
+.sect, .istochnik-div{
+  margin-left:-10px;
+}
+.sect,header,.menu,.istochnik-div,.foot{
+  min-width: 992px;
+  width: 992px;
+}
+.img-blue-3{
+  margin-left:-364px;
+  margin-top:-500px;
+}
+img[src="img/new-ulstu.png"]{
+  margin-left:-55px;
+}
+.history{
+  font-size: 55px;
+  margin-top: 60px;
+}
+.for-proect{
+  margin-top : 60px;
+  font-size: 50px;
+}
+.people,.link,.sect p{
+  font-size:40px;
+}
+.istochnik,header{
+  margin-left:50px;
+}
+}
+@media(min-width:768px) and (max-width:992px){
+header img{
+  height:110px;
+  margin:0px;
+ 
+}
+
+.people,.link,.sect p{
+  font-size:40px;
+  margin-left:100px;
+}
+.for-proect{
+  margin-top:80px;
+  font-size:50px;
+}
+.istochnik{
+  margin-left: 30px;
+}
+.sect,header,.menu,.istochnik-div,.foot, body .container-fluid, body,html{
+  min-width: 768px;
+  width: 768px;
+}
+.for-proect{
+  margin-top : 100px;
+  font-size: 30px;
+  margin-left: 30px;
+}
+.istochnik-div{
+  margin-left: -20px;
+}
+.people,.link,.sect p{
+  font-size:35px;
+  margin-left:100px;
+}
+.vk,.inst{
+  font-size: 30px;
+}
+html{
+  margin: 0px!important;
+  padding: 0px!important;
+  box-sizing: border-box;
+}
+.foot{
+  margin-left:-15px;
+}
+.img-blue-3,.img-blue-2,.img-blue-1{
+  display: block;
+  margin-left: 0px;
+  margin-top:-110px
+}
+.pr-1{
+  margin-left:5px;
+}
+.pr-2{
+  margin-left: 10px;
+}
+.pr-3{
+  margin-left: 20px;
+}
+.history{
+  font-size: 50px;
+}
+}
+
+@media(min-width:576px) and (max-width:768px){
+  header img{
+    display: inline-block;
+    height:90px;
+    margin:20px;
+   
+  }
+  .sect,header,.menu,.istochnik-div,.foot, body .container-fluid, body,html{
+    min-width: 576px;
+    width: 576px;
+  }
+  .history{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  .for-proect{
+    margin-top : 40px;
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  .people,.link,.sect p{
+    font-size:25px;
+    margin-left:100px;
+  }
+  .vk,.inst{
+    font-size: 20px;
+  }
+  .mini-icon{
+    height:40px;
+    margin-left: 20px;
+  }
+  .istochnik-div{
+    margin-left:-20px;
+  }
+  
+  .foot{
+    margin-left:-15px;
+  }
+  .img-blue-3,.img-blue-2,.img-blue-1{
+    display: block;
+    margin-left: 0px;
+    margin-top:-130px
+  }
+  .proect-text{
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  .pr-1{
+    margin-left:22px;
+  }
+  .pr-2{
+    margin-left: 25px;
+  }
+  .pr-3{
+    margin-left: 30px;
+  }
+}
+  @media(max-width:576px){
+    
+    header img{
+      height:80px;
+      margin:0px;
+     
+    }
+    header{
+      height:350px;
+    }
+    img[src="img/new-ulstu.png"]{
+      margin-left:-35px;
+    }
+   
+    .menu div div a {
+      font-size: 15px;
+    }
+    .proect{
+      margin :0px;
+    }
+    .menu-centr{
+      margin-left:180px;
+      
+        
+    }
+    .mini-icon{
+      height:40px;
+      }
+      .link a{
+        font-size: 20px;
+      }
+      .istochnik{
+        font-size: 40px;
+      }
+    #proect2{
+      margin-top:900px;
+      margin-left : 120px;
+    }
+    header div div div img{
+      height: 70px;
+      margin-top: 30px;
+    }
+    .img-blue-3,.img-blue-2,.img-blue-1{
+      display: block;
+      margin-left: 0px;
+      margin-top:-100px
+    }
+    .img-blue-3{
+      margin-left:-35px; 
+    }
+    .proect-text{
+      margin-top: 20px;
+    }
+      .sect,header,.menu,.istochnik-div,.foot, body .container-fluid, body,html{
+      min-width: auto;
+      width: auto;
+    }
+    .history{
+      font-size: 25px;
+      margin-top: -10px;
+    }
+    .for-proect{
+      margin-top : 65px;
+      font-size: 30px;
+    }
+    .people,.link,.sect p{
+      font-size:25px;
+      margin-left:120px;
+    }
+    .istochnik-div{
+      margin-left:0px;
+    }
+    .proect-text,.istochnik-div{
+      font-size: 20px;
+      margin-left:5px;
+    }
+    .pr-2{
+      margin-left: 7px;
+    }
+    .pr-3{
+      margin-left: 10px;
+    }
+    }
+    @media(max-width:290px){
+header img {
+  height:80px;
+}
+.history{
+  font-size: 35px;
+}
+.for-proect{
+  font-size: 30px;
+}
+.mini-icon{
+height:20px;
+}
+.sect div a,.istochnik-div{
+  font-size:20px;
+}
+    }
 .text-1,.text-2,.text-3,.out-1,.out-2,.out-3{
     display: inline-block;
 }
 .out-1,.out-2,.out-3{
     background: rgba(196, 196, 196, 0.7);
+}
+#more{display: none;}
+h1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+button{
+    background: rgba(172, 132, 179, 0.5);
+    border-radius:30px;
+    min-width:100%;
 }
