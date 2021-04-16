@@ -36,15 +36,16 @@
 </header>
     <h1>КАЛЬКУЛЯТОР СОВРЕМЕННЫХ НАЛОГОВ В РОССИЙСКОЙ ФЕДЕРАЦИИ</h1>
 <div class="col-12 row">
-        <div class="col-6">
+        <div class="col-4">
             <button class="button-1" onclick="out1()">НАЛОГ НА ДОХОДЫ ФИЗИЧЕСКИХ ЛИЦ</button>
             <button class="button-2" onclick="out2()">НАЛОГ НА ИМУЩЕСТВО ФИЗ. ЛИЦ:</button>
             <button class="button-3" onclick="out3()">ЗЕМЕЛЬНЫЙ НАЛОГ</button>
             <button class="button-4" onclick="out4()">НАЛОГ НА ДОБАВЛЕННУЮ СТОИМОСТЬ </button>
             <button class="button-5" onclick="out5()">НАЛОГ НА ПРИБЫЛЬ ОРГАНИЗАЦИЙ</button>
-            <button class="button-6" id="buttonformore" onclick="addprosent()">Другая налоговая ставка</button>
+            <button class="button-6" id="buttonformore" onclick="addprosent()">ДРУГАЯ НАЛОГОВАЯ СТАВКА</button>
         </div>
         <div class="col-6">
+            <div class="text-nalog">
             <div class="text-1">Сумма до налогообложения:</div>
             <input class="in" type="text" id="inp"><br>
             <span id="not"></span>
@@ -61,6 +62,7 @@
             <div class="out-3" id="out2"></div><br>
             <div class="description" id="out3"></div>
         </div>
+    </div>
 </div>
 <script src="js/калькулярот.js"></script>
 </body>

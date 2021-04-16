@@ -215,9 +215,9 @@ section p span{
  text-shadow: 13px 0px 0px #470060;
 display: block;
 }
-.test a:hover{
+.test a:hover,.calc a:hover{
   transform-origin: all;
-  transition-duration: 0.5s;
+  transition-duration: 0.9s;
   color: #717AD7;
   text-decoration: none;
  text-shadow: none;

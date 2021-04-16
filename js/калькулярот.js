@@ -55,11 +55,11 @@ function addprosent(){
     var buttonformore = document.getElementById('buttonformore');
     if(not.style.display === "none"){
         not.style.display = "inline";
-        buttonformore.innerHTML = "Другая налоговая ставка";
+        buttonformore.innerHTML = "ДРУГАЯ НАЛОГОВАЯ СТАВКА";
         more.style.display = "none";
     } else{
         not.style.display = "none";
-        buttonformore.innerHTML = "Скрыть другую налоговую ставку";
+        buttonformore.innerHTML = "СКРЫТЬ ДРУГУЮ НАЛОГОВУЮ СТАВКУ";
         more.style.display = "inline";
     }
     document.getElementById('out3').innerHTML = "Введите свою процентную ставку";
